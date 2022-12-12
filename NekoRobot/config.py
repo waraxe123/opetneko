@@ -14,24 +14,24 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1234567  # integer value, dont use ""
-    API_HASH = "123458494"
+    API_ID = 25924955  # integer value, dont use ""
+    API_HASH = "140d8d0ad7c45e934d82dfcbba019e0d"
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    STRING_SESSION = ""
-    OWNER_ID = 1732814103  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Its_IZ_PRINCE_xD"
-    SUPPORT_CHAT = "Besties_XD"  # Your own group for support, do not add the @
+    STRING_SESSION = "1BVtsOIIBu3nN8TGSjFUdEBfCRjZFYO1fyfw3zDJZtKMDr7kPnk9x31MXPWCNgWcv6AocVujT82dadPlT7HY4irYNBD-Kg-K0cT70AwJwPYTwSgRS5tXsFr2oOvA_8qz66yOoa3bj7cYbL9O8P1fX61guw8S-GmCaI8U1WPGgce19ZzpbmfysZdd0pV19y2pt6o8uUrvdkkW41Xf_LLGmtfcAE40F3Jd5F8n1oB4iTfGhyoBUrI_i2MpoPh84ebgbu49vIy2l7DnwQr9WSfSCmEQKSSKM-CBGZ4GA2PfQzuvf4IiAEiQpOdQVIHStSq0Pq-X_U1UHUxPWifd2TlwGjL-4XT3iEXM="
+    OWNER_ID = 1784179805  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "xtelr"
+    SUPPORT_CHAT = "satpamajg"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001739802989
+        -1001873253940
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001739802989
+        -1001873253940
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://fsanpeav:ndB0XnZ4tbm887rtDk4DQuSl5lOBlcE_@hansken.db.elephantsql.com:5432/fsanpeav"  # needed for any database modules
     DB_URL = ""
-    REDIS_URL = ""
+    REDIS_URL = "redis-12905.c9.us-east-1-4.ec2.cloud.redislabs.com:12905"
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
@@ -61,9 +61,9 @@ class Config(object):
     BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
-        "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "MTUCS6JPUFR8XRPO"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = "awoo"  # Get your API key from https://timezonedb.com/api
+    TIME_API_KEY = "EYO2G96ONPI6"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
         "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
