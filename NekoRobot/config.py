@@ -17,7 +17,7 @@ class Config(object):
     API_ID = 25924955  # integer value, dont use ""
     API_HASH = "140d8d0ad7c45e934d82dfcbba019e0d"
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    STRING_SESSION = "1BVtsOIIBu3nN8TGSjFUdEBfCRjZFYO1fyfw3zDJZtKMDr7kPnk9x31MXPWCNgWcv6AocVujT82dadPlT7HY4irYNBD-Kg-K0cT70AwJwPYTwSgRS5tXsFr2oOvA_8qz66yOoa3bj7cYbL9O8P1fX61guw8S-GmCaI8U1WPGgce19ZzpbmfysZdd0pV19y2pt6o8uUrvdkkW41Xf_LLGmtfcAE40F3Jd5F8n1oB4iTfGhyoBUrI_i2MpoPh84ebgbu49vIy2l7DnwQr9WSfSCmEQKSSKM-CBGZ4GA2PfQzuvf4IiAEiQpOdQVIHStSq0Pq-X_U1UHUxPWifd2TlwGjL-4XT3iEXM="
+    STRING_SESSION = "1BVtsOHIBu2rl_TGeWeLMnP5D0L125IuHjh4jG8FMu7Ebn7NLtkMwGlHuJRPAa2rbOIMXKXWds83Elj4hSXqlxOsQq2NzNe4aF97Q-46msoOF1iOqFHHLC6PEDxJSrK2VZBnBJQK-RXS7cwxLU-Sk08zUdzduzSNWgxnyfGEurJ5y3-6f3O0HFWr1nSaakWe_l6wP5f27aE_9jir77QpFVHVA1UV_8CA1FHJbSati6Uyr8ERmcfpmjlpOqnkyptNXd9LgBcjDwGrCwJ3Rr3yjD5EbEap6h2Tx_-kfgeMZpyEEwmhHAQLDfiT1OVW0Sup6hfX7jsxMRT7kE1Wn2_PWzQq5bdcQA-0="
     OWNER_ID = 1784179805  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "xtelr"
     SUPPORT_CHAT = "satpamajg"  # Your own group for support, do not add the @
