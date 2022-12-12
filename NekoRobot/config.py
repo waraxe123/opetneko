@@ -16,7 +16,7 @@ class Config(object):
 
     API_ID = 25924955  # integer value, dont use ""
     API_HASH = "140d8d0ad7c45e934d82dfcbba019e0d"
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "5805856990:AAHixt2Cm-elIJAjDSmAqcEVx22CQfePUl8"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     STRING_SESSION = "1BVtsOHIBu2rl_TGeWeLMnP5D0L125IuHjh4jG8FMu7Ebn7NLtkMwGlHuJRPAa2rbOIMXKXWds83Elj4hSXqlxOsQq2NzNe4aF97Q-46msoOF1iOqFHHLC6PEDxJSrK2VZBnBJQK-RXS7cwxLU-Sk08zUdzduzSNWgxnyfGEurJ5y3-6f3O0HFWr1nSaakWe_l6wP5f27aE_9jir77QpFVHVA1UV_8CA1FHJbSati6Uyr8ERmcfpmjlpOqnkyptNXd9LgBcjDwGrCwJ3Rr3yjD5EbEap6h2Tx_-kfgeMZpyEEwmhHAQLDfiT1OVW0Sup6hfX7jsxMRT7kE1Wn2_PWzQq5bdcQA-0="
     OWNER_ID = 1784179805  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "xtelr"
