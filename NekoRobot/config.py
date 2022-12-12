@@ -95,21 +95,23 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1234567  # integer value, dont use ""
-    API_HASH = "12345abcdefg23459"
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1732814103  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "DarlingPrince"
-    SUPPORT_CHAT = "Besties_XD"  # Your own group for support, do not add the @
+    API_ID = 25924955  # integer value, dont use ""
+    API_HASH = "140d8d0ad7c45e934d82dfcbba019e0d"
+    TOKEN = "5805856990:AAHixt2Cm-elIJAjDSmAqcEVx22CQfePUl8"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1784179805 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "xtelr"
+    SUPPORT_CHAT = "satpamajg"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001739802989
+        -1001873253940
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001739802989
+        -1001873253940
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://fsanpeav:ndB0XnZ4tbm887rtDk4DQuSl5lOBlcE_@hansken.db.elephantsql.com:5432/fsanpeav"  # needed for any database modules
+
+   # needed for any database modules
     DB_URL = ""
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
@@ -140,11 +142,11 @@ class Config(object):
     BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
-        "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "MTUCS6JPUFR8XRPO"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
     TIME_API_KEY = "awoo"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
-        "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
+        "EYO2G96ONPI6"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
     AI_API_KEY = "awoo"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
