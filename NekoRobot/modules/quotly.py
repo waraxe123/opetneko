@@ -437,9 +437,9 @@ async def q(event):
     res, canvas = await process(msg, user, event.client, reply, repliedreply)
     if not res:
         return
-    canvas.save("sticker.webp")
+    canvas.save("@QuotLyBot")
     await event.client.send_file(
-        event.chat_id, "sticker.webp", reply_to=event.reply_to_msg_id
+        event.chat_id, "@QuotLyBot", reply_to=event.reply_to_msg_id
     )
     os.remove("sticker.webp")
 
